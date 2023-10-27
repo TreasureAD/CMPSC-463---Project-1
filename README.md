@@ -44,7 +44,7 @@ For my test cases, I tested the three algorithms (Timsort, Insertion sort, and M
 
 | Test Case | TimSort Run time| MergeSort Run time| QuickSort Run time|
 | -------- | -------  | --------| --------|
-| Sorted List  | 0.0 (Sec)      | 0.0 (Sec)  | 0.0 (Sec)|
+| Sorted List  | 4.38690185546875e-05     | 0.0 (Sec)  | 0.0 (Sec)|
 | Unsorted List |  0.0 (Sec)     |0.0 (Sec)  | 0.0 (Sec)|
 |10 elements |  0.002 (Sec)   |0.0025 (Sec)|0.0019 (Sec)|
 |10,000 elements| 0.0229 (Sec)  |0.029 (Sec)| 0.0189 (Sec) |
