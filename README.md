@@ -19,6 +19,25 @@ Timsort initially divides the input data into smaller groups, or "runs," which a
 Timsort:
 By combining these two sorting algorithms and taking advantage of their strengths, Timsort is able to efficiently sort a wide range of data types, including partially ordered or partially structured data, while maintaining stability in the sorting process. Timsort's adaptive nature, which adjusts its strategy based on the input data, helps it perform well in various scenarios.
 
+Code Explanation:
+n = len(arr): Determine the length of the input array arr, which is the total number of elements to be sorted.
+
+Initial Insertion Sort Runs:
+
+The input array is divided into smaller runs of size min_run.
+For each run, the insertion_sort function is called to sort that run in-place.
+The range for each run is determined by i and min_run, ensuring it doesn't exceed the array's bounds.
+size = min_run: Set the initial size of runs to min_run.
+
+Merge and Expand Runs:
+
+The algorithm now enters the merge and expand phase, where it combines adjacent runs to create larger sorted runs.
+A loop iterates over the array, and for each pair of runs, it merges them using the merge function.
+The start, midpoint, and end variables define the indices for the current pair of runs.
+The merged run is stored in merged_array.
+Finally, the original runs in the array are replaced by the merged run.
+size *= 2: After merging a pair of runs, the size of the runs is doubled for the next iteration of the loop. This process continues until the entire array is sorted.
+
 # ***Benchmarking Results***
 + start here
 
