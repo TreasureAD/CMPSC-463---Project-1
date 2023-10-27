@@ -42,14 +42,14 @@ size *= 2: After merging a pair of runs, the size of the runs is doubled for the
 # ***Benchmarking Results***
 For my test cases, I tested the three algorithms (Timsort, Insertion sort, and Merge sort) using different scenarios to 
 
-| List Size | TimSort Time| MergeSort Time| QuickSort Time| HeapSort Time |
-| -------- | -------  | --------| --------| -------- |
-| 10  | 0.0 (Sec)      | 0.0 (Sec)  | 0.0 (Sec)| 0.0 (Sec)|
-| 100 |  0.0 (Sec)     |0.0 (Sec)  | 0.0 (Sec)| 0.0 (Sec)|
-|1000 |  0.002 (Sec)   |0.0025 (Sec)|0.0019 (Sec)| 0.0029 (Sec)|
-|10,000| 0.0229 (Sec)  |0.029 (Sec)| 0.0189 (Sec) |0.0584 (Sec)|
-|100,000|  0.3717 (Sec)|0.389 (Sec)| 0.572 (Sec)| 0.47 (Sec)|
-|1,000,000| 4.13 (Sec) |4.29 (Sec) |Failed: Max Recusion Depth| 5.90 (Sec)|
+| List Size | TimSort Time| MergeSort Time| QuickSort Time|
+| -------- | -------  | --------| --------|
+| 10  | 0.0 (Sec)      | 0.0 (Sec)  | 0.0 (Sec)|
+| 100 |  0.0 (Sec)     |0.0 (Sec)  | 0.0 (Sec)|
+|1000 |  0.002 (Sec)   |0.0025 (Sec)|0.0019 (Sec)|
+|10,000| 0.0229 (Sec)  |0.029 (Sec)| 0.0189 (Sec) |
+|100,000|  0.3717 (Sec)|0.389 (Sec)| 0.572 (Sec)|
+|1,000,000| 4.13 (Sec) |4.29 (Sec) |Failed: Max Recusion Depth|
 
 # ***Numerical Result and Theoretical Analysis***
 + start here
