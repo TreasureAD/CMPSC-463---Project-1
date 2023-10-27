@@ -40,7 +40,9 @@ Finally, the original runs in the array are replaced by the merged run.
 size *= 2: After merging a pair of runs, the size of the runs is doubled for the next iteration of the loop. This process continues until the entire array is sorted.
 
 # ***Benchmarking Results***
-For my test cases, I tested the three algorithms (Timsort, Insertion sort, and Merge sort) using different scenarios to 
+For my test cases, I tested the three algorithms (Timsort, Insertion sort, and Merge sort) using different scenarios to test and compare the effeciency of each algorithm. I did 5 test cases which were a sorted list, unsorted list, long list (10,000 elements), short list (10 elements), and an empty list.
+
+Below are the benchmarking results for each algorithm and each test case.
 
 | Test Case | TimSort Run time| Merge Sort Run time| Insertion Sort Run time|
 | -------- | -------  | --------| --------|
