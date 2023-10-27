@@ -42,13 +42,13 @@ size *= 2: After merging a pair of runs, the size of the runs is doubled for the
 # ***Benchmarking Results***
 For my test cases, I tested the three algorithms (Timsort, Insertion sort, and Merge sort) using different scenarios to 
 
-| Test Case | TimSort Run time| MergeSort Run time| QuickSort Run time|
+| Test Case | TimSort Run time| Merge Sort Run time| Insertion Sort Run time|
 | -------- | -------  | --------| --------|
-| Sorted List  | 4.38690185546875e-05     | 0.0 (Sec)  | 0.0 (Sec)|
-| Unsorted List |  0.0 (Sec)     |0.0 (Sec)  | 0.0 (Sec)|
-|10 elements |  0.002 (Sec)   |0.0025 (Sec)|0.0019 (Sec)|
-|10,000 elements| 0.0229 (Sec)  |0.029 (Sec)| 0.0189 (Sec) |
-|Empty List|  0.3717 (Sec)|0.389 (Sec)| 0.572 (Sec)|
+| Sorted List  | 0.0002446174621582031 | 0.0006351470947265625| 5.125999450683594e-05|
+| Unsorted List | 0.0003635883331298828 |2.7179718017578125e-05  | 0.0005280971527099609|
+|10 elements |3.314018249511719e-05|4.00543212890625e-05|4.76837158203125e-06|
+|10,000 elements| 0.11567068099975586  |0.16532373428344727| 0.003881216049194336 |
+|Empty List|  1.4543533325195312e-05|1.9073486328125e-06| 6.198883056640625e-06|
 
 # ***Numerical Result and Theoretical Analysis***
 + start here
