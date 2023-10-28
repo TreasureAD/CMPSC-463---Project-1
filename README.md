@@ -58,4 +58,8 @@ Below are the benchmarking results for each algorithm and each test case.
 |Empty List|  1.4543533325195312e-05|1.9073486328125e-06| 6.198883056640625e-06|
 
 # ***Numerical Result and Theoretical Analysis***
-+ start here
+Timsort: In the average case, Timsort has a time complexity of O(n log n). In the best case, it can reach O(n), and in the worst case, it is still O(n log n).
+Merge Sort: Merge sort also has a time complexity of O(n log n) in all cases.
+Insertion Sort: Insertion sort has an average time complexity of O(n^2), making it less efficient than Timsort and merge sort.
+
+As seen from the time complexities and test cases, Timsort is an efficient sorting algorithm, especially for real-world data. It adapts its strategy to different input scenarios, making it a good choice for general-purpose sorting.
