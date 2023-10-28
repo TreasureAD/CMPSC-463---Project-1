@@ -57,6 +57,9 @@ Below are the benchmarking results for each algorithm and each test case.
 |Letter values |  1.2159347534179688e-05  |  1.8358230590820312e-05  |   3.0994415283203125e-06 |
 |Empty List|  1.4543533325195312e-05|1.9073486328125e-06| 6.198883056640625e-06|
 
+**Run time results**
+As seen in the various test cases, Timsort generally performs better than both Insertion Sort and Merge Sort in terms of runtime. It is optimized for a wide range of input data and handles both small and large datasets efficiently. In summary, Timsort is a more efficient and versatile sorting algorithm compared to both Insertion Sort and Merge Sort, especially when dealing with different types of datasets.
+
 # ***Numerical Result and Theoretical Analysis***
 Timsort: In the average case, Timsort has a time complexity of O(n log n). In the best case, it can reach O(n), and in the worst case, it is still O(n log n).
 Merge Sort: Merge sort also has a time complexity of O(n log n) in all cases.
